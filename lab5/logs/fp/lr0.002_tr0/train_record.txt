@@ -1,0 +1,361 @@
+args: Namespace(lr=0.002, beta1=0.9, batch_size=20, log_dir='./logs/fp/rnn_size=256-predictor-posterior-rnn_layers=2-1-n_past=2-n_future=10-lr=0.0020-g_dim=128-z_dim=64-last_frame_skip=False-beta=0.0001000', model_dir='', data_root='./data/processed_data', optimizer='adam', niter=300, epoch_size=600, tfr=1.0, tfr_start_decay_epoch=0, tfr_decay_step=0, tfr_lower_bound=0, kl_anneal_cyclical=False, kl_anneal_ratio=0.5, kl_anneal_cycle=2, seed=13, n_past=2, n_future=10, n_eval=30, rnn_size=256, posterior_rnn_layers=1, predictor_rnn_layers=2, z_dim=64, g_dim=128, beta=0.0001, num_workers=4, last_frame_skip=False, cuda=True)
+[epoch: 00] loss: 0.00767 | mse loss: 0.00767 | kld loss: 80.33317 | teacher ratio: 1.00000 | KL ratio: 0.00000
+====================== validate psnr = 18.74928 ========================
+[epoch: 01] loss: 0.01065 | mse loss: 0.00744 | kld loss: 0.48179 | teacher ratio: 0.99667 | KL ratio: 0.00667
+[epoch: 02] loss: 0.00722 | mse loss: 0.00721 | kld loss: 0.00112 | teacher ratio: 0.99333 | KL ratio: 0.01333
+[epoch: 03] loss: 0.00648 | mse loss: 0.00646 | kld loss: 0.00055 | teacher ratio: 0.99000 | KL ratio: 0.02000
+[epoch: 04] loss: 0.00592 | mse loss: 0.00591 | kld loss: 0.00034 | teacher ratio: 0.98667 | KL ratio: 0.02667
+[epoch: 05] loss: 0.00682 | mse loss: 0.00681 | kld loss: 0.00039 | teacher ratio: 0.98333 | KL ratio: 0.03333
+====================== validate psnr = 20.72135 ========================
+[epoch: 06] loss: 0.00576 | mse loss: 0.00576 | kld loss: 0.00009 | teacher ratio: 0.98000 | KL ratio: 0.04000
+[epoch: 07] loss: 0.00533 | mse loss: 0.00532 | kld loss: 0.00005 | teacher ratio: 0.97667 | KL ratio: 0.04667
+[epoch: 08] loss: 0.00533 | mse loss: 0.00532 | kld loss: 0.00006 | teacher ratio: 0.97333 | KL ratio: 0.05333
+[epoch: 09] loss: 0.00496 | mse loss: 0.00496 | kld loss: 0.00002 | teacher ratio: 0.97000 | KL ratio: 0.06000
+[epoch: 10] loss: 0.00516 | mse loss: 0.00516 | kld loss: 0.00002 | teacher ratio: 0.96667 | KL ratio: 0.06667
+====================== validate psnr = 21.91009 ========================
+[epoch: 11] loss: 0.00528 | mse loss: 0.00528 | kld loss: 0.00004 | teacher ratio: 0.96333 | KL ratio: 0.07333
+[epoch: 12] loss: 0.00508 | mse loss: 0.00508 | kld loss: 0.00002 | teacher ratio: 0.96000 | KL ratio: 0.08000
+[epoch: 13] loss: 0.00474 | mse loss: 0.00474 | kld loss: 0.00001 | teacher ratio: 0.95667 | KL ratio: 0.08667
+[epoch: 14] loss: 0.00464 | mse loss: 0.00464 | kld loss: 0.00001 | teacher ratio: 0.95333 | KL ratio: 0.09333
+[epoch: 15] loss: 0.00492 | mse loss: 0.00492 | kld loss: 0.00002 | teacher ratio: 0.95000 | KL ratio: 0.10000
+====================== validate psnr = 21.88310 ========================
+[epoch: 16] loss: 0.00441 | mse loss: 0.00441 | kld loss: 0.00001 | teacher ratio: 0.94667 | KL ratio: 0.10667
+[epoch: 17] loss: 0.00449 | mse loss: 0.00449 | kld loss: 0.00001 | teacher ratio: 0.94333 | KL ratio: 0.11333
+[epoch: 18] loss: 0.00451 | mse loss: 0.00451 | kld loss: 0.00001 | teacher ratio: 0.94000 | KL ratio: 0.12000
+[epoch: 19] loss: 0.00430 | mse loss: 0.00430 | kld loss: 0.00001 | teacher ratio: 0.93667 | KL ratio: 0.12667
+[epoch: 20] loss: 0.00435 | mse loss: 0.00435 | kld loss: 0.00001 | teacher ratio: 0.93333 | KL ratio: 0.13333
+====================== validate psnr = 22.07330 ========================
+[epoch: 21] loss: 0.00405 | mse loss: 0.00405 | kld loss: 0.00000 | teacher ratio: 0.93000 | KL ratio: 0.14000
+[epoch: 22] loss: 0.00411 | mse loss: 0.00411 | kld loss: 0.00001 | teacher ratio: 0.92667 | KL ratio: 0.14667
+[epoch: 23] loss: 0.00423 | mse loss: 0.00423 | kld loss: 0.00001 | teacher ratio: 0.92333 | KL ratio: 0.15333
+[epoch: 24] loss: 0.00398 | mse loss: 0.00398 | kld loss: 0.00001 | teacher ratio: 0.92000 | KL ratio: 0.16000
+[epoch: 25] loss: 0.00398 | mse loss: 0.00398 | kld loss: 0.00000 | teacher ratio: 0.91667 | KL ratio: 0.16667
+====================== validate psnr = 23.28654 ========================
+[epoch: 26] loss: 0.00390 | mse loss: 0.00390 | kld loss: 0.00001 | teacher ratio: 0.91333 | KL ratio: 0.17333
+[epoch: 27] loss: 0.00385 | mse loss: 0.00385 | kld loss: 0.00000 | teacher ratio: 0.91000 | KL ratio: 0.18000
+[epoch: 28] loss: 0.00368 | mse loss: 0.00368 | kld loss: 0.00000 | teacher ratio: 0.90667 | KL ratio: 0.18667
+[epoch: 29] loss: 0.00366 | mse loss: 0.00366 | kld loss: 0.00001 | teacher ratio: 0.90333 | KL ratio: 0.19333
+[epoch: 30] loss: 0.00365 | mse loss: 0.00365 | kld loss: 0.00000 | teacher ratio: 0.90000 | KL ratio: 0.20000
+====================== validate psnr = 23.40006 ========================
+[epoch: 31] loss: 0.00370 | mse loss: 0.00370 | kld loss: 0.00001 | teacher ratio: 0.89667 | KL ratio: 0.20667
+[epoch: 32] loss: 0.00363 | mse loss: 0.00363 | kld loss: 0.00000 | teacher ratio: 0.89333 | KL ratio: 0.21333
+[epoch: 33] loss: 0.00351 | mse loss: 0.00351 | kld loss: 0.00000 | teacher ratio: 0.89000 | KL ratio: 0.22000
+[epoch: 34] loss: 0.00351 | mse loss: 0.00351 | kld loss: 0.00000 | teacher ratio: 0.88667 | KL ratio: 0.22667
+[epoch: 35] loss: 0.00347 | mse loss: 0.00346 | kld loss: 0.00000 | teacher ratio: 0.88333 | KL ratio: 0.23333
+====================== validate psnr = 24.31793 ========================
+[epoch: 36] loss: 0.00343 | mse loss: 0.00343 | kld loss: 0.00000 | teacher ratio: 0.88000 | KL ratio: 0.24000
+[epoch: 37] loss: 0.00340 | mse loss: 0.00340 | kld loss: 0.00000 | teacher ratio: 0.87667 | KL ratio: 0.24667
+[epoch: 38] loss: 0.00343 | mse loss: 0.00343 | kld loss: 0.00000 | teacher ratio: 0.87333 | KL ratio: 0.25333
+[epoch: 39] loss: 0.00341 | mse loss: 0.00341 | kld loss: 0.00000 | teacher ratio: 0.87000 | KL ratio: 0.26000
+[epoch: 40] loss: 0.00327 | mse loss: 0.00327 | kld loss: 0.00000 | teacher ratio: 0.86667 | KL ratio: 0.26667
+====================== validate psnr = 24.60397 ========================
+[epoch: 41] loss: 0.00335 | mse loss: 0.00335 | kld loss: 0.00000 | teacher ratio: 0.86333 | KL ratio: 0.27333
+[epoch: 42] loss: 0.00334 | mse loss: 0.00334 | kld loss: 0.00000 | teacher ratio: 0.86000 | KL ratio: 0.28000
+[epoch: 43] loss: 0.00325 | mse loss: 0.00325 | kld loss: 0.00000 | teacher ratio: 0.85667 | KL ratio: 0.28667
+[epoch: 44] loss: 0.00327 | mse loss: 0.00327 | kld loss: 0.00000 | teacher ratio: 0.85333 | KL ratio: 0.29333
+[epoch: 45] loss: 0.00320 | mse loss: 0.00320 | kld loss: 0.00000 | teacher ratio: 0.85000 | KL ratio: 0.30000
+====================== validate psnr = 24.07674 ========================
+[epoch: 46] loss: 0.00321 | mse loss: 0.00321 | kld loss: 0.00000 | teacher ratio: 0.84667 | KL ratio: 0.30667
+[epoch: 47] loss: 0.00331 | mse loss: 0.00331 | kld loss: 0.00000 | teacher ratio: 0.84333 | KL ratio: 0.31333
+[epoch: 48] loss: 0.00326 | mse loss: 0.00326 | kld loss: 0.00000 | teacher ratio: 0.84000 | KL ratio: 0.32000
+[epoch: 49] loss: 0.00324 | mse loss: 0.00324 | kld loss: 0.00000 | teacher ratio: 0.83667 | KL ratio: 0.32667
+[epoch: 50] loss: 0.00314 | mse loss: 0.00314 | kld loss: 0.00000 | teacher ratio: 0.83333 | KL ratio: 0.33333
+====================== validate psnr = 24.53510 ========================
+[epoch: 51] loss: 0.00309 | mse loss: 0.00309 | kld loss: 0.00000 | teacher ratio: 0.83000 | KL ratio: 0.34000
+[epoch: 52] loss: 0.00311 | mse loss: 0.00311 | kld loss: 0.00000 | teacher ratio: 0.82667 | KL ratio: 0.34667
+[epoch: 53] loss: 0.00310 | mse loss: 0.00310 | kld loss: 0.00000 | teacher ratio: 0.82333 | KL ratio: 0.35333
+[epoch: 54] loss: 0.00319 | mse loss: 0.00318 | kld loss: 0.00000 | teacher ratio: 0.82000 | KL ratio: 0.36000
+[epoch: 55] loss: 0.00303 | mse loss: 0.00303 | kld loss: 0.00000 | teacher ratio: 0.81667 | KL ratio: 0.36667
+====================== validate psnr = 24.77368 ========================
+[epoch: 56] loss: 0.00308 | mse loss: 0.00307 | kld loss: 0.00000 | teacher ratio: 0.81333 | KL ratio: 0.37333
+[epoch: 57] loss: 0.00309 | mse loss: 0.00309 | kld loss: 0.00000 | teacher ratio: 0.81000 | KL ratio: 0.38000
+[epoch: 58] loss: 0.00292 | mse loss: 0.00292 | kld loss: 0.00000 | teacher ratio: 0.80667 | KL ratio: 0.38667
+[epoch: 59] loss: 0.00308 | mse loss: 0.00308 | kld loss: 0.00000 | teacher ratio: 0.80333 | KL ratio: 0.39333
+[epoch: 60] loss: 0.00304 | mse loss: 0.00303 | kld loss: 0.00000 | teacher ratio: 0.80000 | KL ratio: 0.40000
+====================== validate psnr = 24.51661 ========================
+[epoch: 61] loss: 0.00305 | mse loss: 0.00305 | kld loss: 0.00000 | teacher ratio: 0.79667 | KL ratio: 0.40667
+[epoch: 62] loss: 0.00309 | mse loss: 0.00309 | kld loss: 0.00000 | teacher ratio: 0.79333 | KL ratio: 0.41333
+[epoch: 63] loss: 0.00298 | mse loss: 0.00298 | kld loss: 0.00000 | teacher ratio: 0.79000 | KL ratio: 0.42000
+[epoch: 64] loss: 0.00300 | mse loss: 0.00300 | kld loss: 0.00000 | teacher ratio: 0.78667 | KL ratio: 0.42667
+[epoch: 65] loss: 0.00302 | mse loss: 0.00302 | kld loss: 0.00000 | teacher ratio: 0.78333 | KL ratio: 0.43333
+====================== validate psnr = 24.86660 ========================
+[epoch: 66] loss: 0.00293 | mse loss: 0.00293 | kld loss: 0.00000 | teacher ratio: 0.78000 | KL ratio: 0.44000
+[epoch: 67] loss: 0.00302 | mse loss: 0.00302 | kld loss: 0.00000 | teacher ratio: 0.77667 | KL ratio: 0.44667
+[epoch: 68] loss: 0.00289 | mse loss: 0.00289 | kld loss: 0.00000 | teacher ratio: 0.77333 | KL ratio: 0.45333
+[epoch: 69] loss: 0.00311 | mse loss: 0.00311 | kld loss: 0.00000 | teacher ratio: 0.77000 | KL ratio: 0.46000
+[epoch: 70] loss: 0.00296 | mse loss: 0.00296 | kld loss: 0.00000 | teacher ratio: 0.76667 | KL ratio: 0.46667
+====================== validate psnr = 24.80019 ========================
+[epoch: 71] loss: 0.00294 | mse loss: 0.00294 | kld loss: 0.00000 | teacher ratio: 0.76333 | KL ratio: 0.47333
+[epoch: 72] loss: 0.00296 | mse loss: 0.00296 | kld loss: 0.00000 | teacher ratio: 0.76000 | KL ratio: 0.48000
+[epoch: 73] loss: 0.00285 | mse loss: 0.00285 | kld loss: 0.00000 | teacher ratio: 0.75667 | KL ratio: 0.48667
+[epoch: 74] loss: 0.00290 | mse loss: 0.00290 | kld loss: 0.00000 | teacher ratio: 0.75333 | KL ratio: 0.49333
+[epoch: 75] loss: 0.00288 | mse loss: 0.00288 | kld loss: 0.00000 | teacher ratio: 0.75000 | KL ratio: 0.50000
+====================== validate psnr = 25.28158 ========================
+[epoch: 76] loss: 0.00287 | mse loss: 0.00287 | kld loss: 0.00000 | teacher ratio: 0.74667 | KL ratio: 0.50667
+[epoch: 77] loss: 0.00287 | mse loss: 0.00287 | kld loss: 0.00000 | teacher ratio: 0.74333 | KL ratio: 0.51333
+[epoch: 78] loss: 0.00282 | mse loss: 0.00282 | kld loss: 0.00000 | teacher ratio: 0.74000 | KL ratio: 0.52000
+[epoch: 79] loss: 0.00285 | mse loss: 0.00285 | kld loss: 0.00000 | teacher ratio: 0.73667 | KL ratio: 0.52667
+[epoch: 80] loss: 0.00286 | mse loss: 0.00286 | kld loss: 0.00000 | teacher ratio: 0.73333 | KL ratio: 0.53333
+====================== validate psnr = 24.98655 ========================
+[epoch: 81] loss: 0.00291 | mse loss: 0.00291 | kld loss: 0.00000 | teacher ratio: 0.73000 | KL ratio: 0.54000
+[epoch: 82] loss: 0.00289 | mse loss: 0.00289 | kld loss: 0.00000 | teacher ratio: 0.72667 | KL ratio: 0.54667
+[epoch: 83] loss: 0.00275 | mse loss: 0.00275 | kld loss: 0.00000 | teacher ratio: 0.72333 | KL ratio: 0.55333
+[epoch: 84] loss: 0.00282 | mse loss: 0.00282 | kld loss: 0.00000 | teacher ratio: 0.72000 | KL ratio: 0.56000
+[epoch: 85] loss: 0.00282 | mse loss: 0.00282 | kld loss: 0.00000 | teacher ratio: 0.71667 | KL ratio: 0.56667
+====================== validate psnr = 24.50931 ========================
+[epoch: 86] loss: 0.00279 | mse loss: 0.00279 | kld loss: 0.00000 | teacher ratio: 0.71333 | KL ratio: 0.57333
+[epoch: 87] loss: 0.00280 | mse loss: 0.00280 | kld loss: 0.00000 | teacher ratio: 0.71000 | KL ratio: 0.58000
+[epoch: 88] loss: 0.00280 | mse loss: 0.00280 | kld loss: 0.00000 | teacher ratio: 0.70667 | KL ratio: 0.58667
+[epoch: 89] loss: 0.00284 | mse loss: 0.00284 | kld loss: 0.00000 | teacher ratio: 0.70333 | KL ratio: 0.59333
+[epoch: 90] loss: 0.00293 | mse loss: 0.00293 | kld loss: 0.00000 | teacher ratio: 0.70000 | KL ratio: 0.60000
+====================== validate psnr = 24.70139 ========================
+[epoch: 91] loss: 0.00278 | mse loss: 0.00278 | kld loss: 0.00000 | teacher ratio: 0.69667 | KL ratio: 0.60667
+[epoch: 92] loss: 0.00279 | mse loss: 0.00279 | kld loss: 0.00000 | teacher ratio: 0.69333 | KL ratio: 0.61333
+[epoch: 93] loss: 0.00272 | mse loss: 0.00272 | kld loss: 0.00000 | teacher ratio: 0.69000 | KL ratio: 0.62000
+[epoch: 94] loss: 0.00279 | mse loss: 0.00279 | kld loss: 0.00000 | teacher ratio: 0.68667 | KL ratio: 0.62667
+[epoch: 95] loss: 0.00275 | mse loss: 0.00275 | kld loss: 0.00000 | teacher ratio: 0.68333 | KL ratio: 0.63333
+====================== validate psnr = 24.99980 ========================
+[epoch: 96] loss: 0.00276 | mse loss: 0.00276 | kld loss: 0.00000 | teacher ratio: 0.68000 | KL ratio: 0.64000
+[epoch: 97] loss: 0.00276 | mse loss: 0.00276 | kld loss: 0.00000 | teacher ratio: 0.67667 | KL ratio: 0.64667
+[epoch: 98] loss: 0.00280 | mse loss: 0.00280 | kld loss: 0.00000 | teacher ratio: 0.67333 | KL ratio: 0.65333
+[epoch: 99] loss: 0.00273 | mse loss: 0.00273 | kld loss: 0.00000 | teacher ratio: 0.67000 | KL ratio: 0.66000
+[epoch: 100] loss: 0.00273 | mse loss: 0.00273 | kld loss: 0.00000 | teacher ratio: 0.66667 | KL ratio: 0.66667
+====================== validate psnr = 24.90854 ========================
+[epoch: 101] loss: 0.00269 | mse loss: 0.00269 | kld loss: 0.00000 | teacher ratio: 0.66333 | KL ratio: 0.67333
+[epoch: 102] loss: 0.00275 | mse loss: 0.00275 | kld loss: 0.00000 | teacher ratio: 0.66000 | KL ratio: 0.68000
+[epoch: 103] loss: 0.00273 | mse loss: 0.00273 | kld loss: 0.00000 | teacher ratio: 0.65667 | KL ratio: 0.68667
+[epoch: 104] loss: 0.00264 | mse loss: 0.00264 | kld loss: 0.00000 | teacher ratio: 0.65333 | KL ratio: 0.69333
+[epoch: 105] loss: 0.00267 | mse loss: 0.00267 | kld loss: 0.00000 | teacher ratio: 0.65000 | KL ratio: 0.70000
+====================== validate psnr = 25.10288 ========================
+[epoch: 106] loss: 0.00271 | mse loss: 0.00271 | kld loss: 0.00000 | teacher ratio: 0.64667 | KL ratio: 0.70667
+[epoch: 107] loss: 0.00272 | mse loss: 0.00272 | kld loss: 0.00000 | teacher ratio: 0.64333 | KL ratio: 0.71333
+[epoch: 108] loss: 0.00269 | mse loss: 0.00269 | kld loss: 0.00000 | teacher ratio: 0.64000 | KL ratio: 0.72000
+[epoch: 109] loss: 0.00271 | mse loss: 0.00271 | kld loss: 0.00000 | teacher ratio: 0.63667 | KL ratio: 0.72667
+[epoch: 110] loss: 0.00268 | mse loss: 0.00268 | kld loss: 0.00000 | teacher ratio: 0.63333 | KL ratio: 0.73333
+====================== validate psnr = 25.06618 ========================
+[epoch: 111] loss: 0.00265 | mse loss: 0.00265 | kld loss: 0.00000 | teacher ratio: 0.63000 | KL ratio: 0.74000
+[epoch: 112] loss: 0.00268 | mse loss: 0.00268 | kld loss: 0.00000 | teacher ratio: 0.62667 | KL ratio: 0.74667
+[epoch: 113] loss: 0.00262 | mse loss: 0.00262 | kld loss: 0.00000 | teacher ratio: 0.62333 | KL ratio: 0.75333
+[epoch: 114] loss: 0.00270 | mse loss: 0.00270 | kld loss: 0.00000 | teacher ratio: 0.62000 | KL ratio: 0.76000
+[epoch: 115] loss: 0.00265 | mse loss: 0.00265 | kld loss: 0.00000 | teacher ratio: 0.61667 | KL ratio: 0.76667
+====================== validate psnr = 25.08071 ========================
+[epoch: 116] loss: 0.00266 | mse loss: 0.00266 | kld loss: 0.00000 | teacher ratio: 0.61333 | KL ratio: 0.77333
+[epoch: 117] loss: 0.00261 | mse loss: 0.00261 | kld loss: 0.00000 | teacher ratio: 0.61000 | KL ratio: 0.78000
+[epoch: 118] loss: 0.00259 | mse loss: 0.00259 | kld loss: 0.00000 | teacher ratio: 0.60667 | KL ratio: 0.78667
+[epoch: 119] loss: 0.00268 | mse loss: 0.00268 | kld loss: 0.00000 | teacher ratio: 0.60333 | KL ratio: 0.79333
+[epoch: 120] loss: 0.00267 | mse loss: 0.00267 | kld loss: 0.00000 | teacher ratio: 0.60000 | KL ratio: 0.80000
+====================== validate psnr = 24.79790 ========================
+[epoch: 121] loss: 0.00263 | mse loss: 0.00263 | kld loss: 0.00000 | teacher ratio: 0.59667 | KL ratio: 0.80667
+[epoch: 122] loss: 0.00259 | mse loss: 0.00259 | kld loss: 0.00000 | teacher ratio: 0.59333 | KL ratio: 0.81333
+[epoch: 123] loss: 0.00268 | mse loss: 0.00268 | kld loss: 0.00000 | teacher ratio: 0.59000 | KL ratio: 0.82000
+[epoch: 124] loss: 0.00266 | mse loss: 0.00266 | kld loss: 0.00000 | teacher ratio: 0.58667 | KL ratio: 0.82667
+[epoch: 125] loss: 0.00267 | mse loss: 0.00267 | kld loss: 0.00000 | teacher ratio: 0.58333 | KL ratio: 0.83333
+====================== validate psnr = 24.81722 ========================
+[epoch: 126] loss: 0.00260 | mse loss: 0.00260 | kld loss: 0.00000 | teacher ratio: 0.58000 | KL ratio: 0.84000
+[epoch: 127] loss: 0.00259 | mse loss: 0.00259 | kld loss: 0.00000 | teacher ratio: 0.57667 | KL ratio: 0.84667
+[epoch: 128] loss: 0.00262 | mse loss: 0.00262 | kld loss: 0.00000 | teacher ratio: 0.57333 | KL ratio: 0.85333
+[epoch: 129] loss: 0.00260 | mse loss: 0.00260 | kld loss: 0.00000 | teacher ratio: 0.57000 | KL ratio: 0.86000
+[epoch: 130] loss: 0.00256 | mse loss: 0.00256 | kld loss: 0.00000 | teacher ratio: 0.56667 | KL ratio: 0.86667
+====================== validate psnr = 25.36910 ========================
+[epoch: 131] loss: 0.00259 | mse loss: 0.00259 | kld loss: 0.00000 | teacher ratio: 0.56333 | KL ratio: 0.87333
+[epoch: 132] loss: 0.00262 | mse loss: 0.00262 | kld loss: 0.00000 | teacher ratio: 0.56000 | KL ratio: 0.88000
+[epoch: 133] loss: 0.00258 | mse loss: 0.00258 | kld loss: 0.00000 | teacher ratio: 0.55667 | KL ratio: 0.88667
+[epoch: 134] loss: 0.00264 | mse loss: 0.00264 | kld loss: 0.00000 | teacher ratio: 0.55333 | KL ratio: 0.89333
+[epoch: 135] loss: 0.00261 | mse loss: 0.00261 | kld loss: 0.00000 | teacher ratio: 0.55000 | KL ratio: 0.90000
+====================== validate psnr = 25.22335 ========================
+[epoch: 136] loss: 0.00257 | mse loss: 0.00257 | kld loss: 0.00000 | teacher ratio: 0.54667 | KL ratio: 0.90667
+[epoch: 137] loss: 0.00255 | mse loss: 0.00255 | kld loss: 0.00000 | teacher ratio: 0.54333 | KL ratio: 0.91333
+[epoch: 138] loss: 0.00255 | mse loss: 0.00255 | kld loss: 0.00000 | teacher ratio: 0.54000 | KL ratio: 0.92000
+[epoch: 139] loss: 0.00254 | mse loss: 0.00254 | kld loss: 0.00000 | teacher ratio: 0.53667 | KL ratio: 0.92667
+[epoch: 140] loss: 0.00254 | mse loss: 0.00254 | kld loss: 0.00000 | teacher ratio: 0.53333 | KL ratio: 0.93333
+====================== validate psnr = 25.17464 ========================
+[epoch: 141] loss: 0.00251 | mse loss: 0.00251 | kld loss: 0.00000 | teacher ratio: 0.53000 | KL ratio: 0.94000
+[epoch: 142] loss: 0.00253 | mse loss: 0.00253 | kld loss: 0.00000 | teacher ratio: 0.52667 | KL ratio: 0.94667
+[epoch: 143] loss: 0.00252 | mse loss: 0.00252 | kld loss: 0.00000 | teacher ratio: 0.52333 | KL ratio: 0.95333
+[epoch: 144] loss: 0.00255 | mse loss: 0.00254 | kld loss: 0.00000 | teacher ratio: 0.52000 | KL ratio: 0.96000
+[epoch: 145] loss: 0.00253 | mse loss: 0.00253 | kld loss: 0.00000 | teacher ratio: 0.51667 | KL ratio: 0.96667
+====================== validate psnr = 25.12873 ========================
+[epoch: 146] loss: 0.00251 | mse loss: 0.00251 | kld loss: 0.00000 | teacher ratio: 0.51333 | KL ratio: 0.97333
+[epoch: 147] loss: 0.00252 | mse loss: 0.00252 | kld loss: 0.00000 | teacher ratio: 0.51000 | KL ratio: 0.98000
+[epoch: 148] loss: 0.00251 | mse loss: 0.00251 | kld loss: 0.00000 | teacher ratio: 0.50667 | KL ratio: 0.98667
+[epoch: 149] loss: 0.00252 | mse loss: 0.00252 | kld loss: 0.00000 | teacher ratio: 0.50333 | KL ratio: 0.99333
+[epoch: 150] loss: 0.00267 | mse loss: 0.00267 | kld loss: 0.00000 | teacher ratio: 0.50000 | KL ratio: 1.00000
+====================== validate psnr = 25.11798 ========================
+[epoch: 151] loss: 0.00372 | mse loss: 0.00371 | kld loss: 0.00001 | teacher ratio: 0.49667 | KL ratio: 1.00000
+[epoch: 152] loss: 0.00270 | mse loss: 0.00270 | kld loss: 0.00000 | teacher ratio: 0.49333 | KL ratio: 1.00000
+[epoch: 153] loss: 0.00257 | mse loss: 0.00257 | kld loss: 0.00000 | teacher ratio: 0.49000 | KL ratio: 1.00000
+[epoch: 154] loss: 0.00251 | mse loss: 0.00251 | kld loss: 0.00000 | teacher ratio: 0.48667 | KL ratio: 1.00000
+[epoch: 155] loss: 0.00255 | mse loss: 0.00255 | kld loss: 0.00000 | teacher ratio: 0.48333 | KL ratio: 1.00000
+====================== validate psnr = 25.39639 ========================
+[epoch: 156] loss: 0.00249 | mse loss: 0.00249 | kld loss: 0.00000 | teacher ratio: 0.48000 | KL ratio: 1.00000
+[epoch: 157] loss: 0.00249 | mse loss: 0.00249 | kld loss: 0.00000 | teacher ratio: 0.47667 | KL ratio: 1.00000
+[epoch: 158] loss: 0.00248 | mse loss: 0.00248 | kld loss: 0.00000 | teacher ratio: 0.47333 | KL ratio: 1.00000
+[epoch: 159] loss: 0.00249 | mse loss: 0.00249 | kld loss: 0.00000 | teacher ratio: 0.47000 | KL ratio: 1.00000
+[epoch: 160] loss: 0.00245 | mse loss: 0.00245 | kld loss: 0.00000 | teacher ratio: 0.46667 | KL ratio: 1.00000
+====================== validate psnr = 25.27021 ========================
+[epoch: 161] loss: 0.00244 | mse loss: 0.00244 | kld loss: 0.00000 | teacher ratio: 0.46333 | KL ratio: 1.00000
+[epoch: 162] loss: 0.00247 | mse loss: 0.00247 | kld loss: 0.00000 | teacher ratio: 0.46000 | KL ratio: 1.00000
+[epoch: 163] loss: 0.00247 | mse loss: 0.00247 | kld loss: 0.00000 | teacher ratio: 0.45667 | KL ratio: 1.00000
+[epoch: 164] loss: 0.00246 | mse loss: 0.00246 | kld loss: 0.00000 | teacher ratio: 0.45333 | KL ratio: 1.00000
+[epoch: 165] loss: 0.00255 | mse loss: 0.00255 | kld loss: 0.00000 | teacher ratio: 0.45000 | KL ratio: 1.00000
+====================== validate psnr = 25.44277 ========================
+[epoch: 166] loss: 0.00244 | mse loss: 0.00244 | kld loss: 0.00000 | teacher ratio: 0.44667 | KL ratio: 1.00000
+[epoch: 167] loss: 0.00254 | mse loss: 0.00254 | kld loss: 0.00000 | teacher ratio: 0.44333 | KL ratio: 1.00000
+[epoch: 168] loss: 0.00249 | mse loss: 0.00249 | kld loss: 0.00000 | teacher ratio: 0.44000 | KL ratio: 1.00000
+[epoch: 169] loss: 0.00252 | mse loss: 0.00252 | kld loss: 0.00000 | teacher ratio: 0.43667 | KL ratio: 1.00000
+[epoch: 170] loss: 0.00245 | mse loss: 0.00245 | kld loss: 0.00000 | teacher ratio: 0.43333 | KL ratio: 1.00000
+====================== validate psnr = 25.60320 ========================
+[epoch: 171] loss: 0.00256 | mse loss: 0.00256 | kld loss: 0.00000 | teacher ratio: 0.43000 | KL ratio: 1.00000
+[epoch: 172] loss: 0.00242 | mse loss: 0.00242 | kld loss: 0.00000 | teacher ratio: 0.42667 | KL ratio: 1.00000
+[epoch: 173] loss: 0.00249 | mse loss: 0.00249 | kld loss: 0.00000 | teacher ratio: 0.42333 | KL ratio: 1.00000
+[epoch: 174] loss: 0.00252 | mse loss: 0.00252 | kld loss: 0.00000 | teacher ratio: 0.42000 | KL ratio: 1.00000
+[epoch: 175] loss: 0.00243 | mse loss: 0.00243 | kld loss: 0.00000 | teacher ratio: 0.41667 | KL ratio: 1.00000
+====================== validate psnr = 25.69838 ========================
+[epoch: 176] loss: 0.00239 | mse loss: 0.00239 | kld loss: 0.00000 | teacher ratio: 0.41333 | KL ratio: 1.00000
+[epoch: 177] loss: 0.00243 | mse loss: 0.00243 | kld loss: 0.00000 | teacher ratio: 0.41000 | KL ratio: 1.00000
+[epoch: 178] loss: 0.00243 | mse loss: 0.00243 | kld loss: 0.00000 | teacher ratio: 0.40667 | KL ratio: 1.00000
+[epoch: 179] loss: 0.00245 | mse loss: 0.00245 | kld loss: 0.00000 | teacher ratio: 0.40333 | KL ratio: 1.00000
+[epoch: 180] loss: 0.00242 | mse loss: 0.00242 | kld loss: 0.00000 | teacher ratio: 0.40000 | KL ratio: 1.00000
+====================== validate psnr = 25.63481 ========================
+[epoch: 181] loss: 0.00244 | mse loss: 0.00244 | kld loss: 0.00000 | teacher ratio: 0.39667 | KL ratio: 1.00000
+[epoch: 182] loss: 0.00240 | mse loss: 0.00240 | kld loss: 0.00000 | teacher ratio: 0.39333 | KL ratio: 1.00000
+[epoch: 183] loss: 0.00240 | mse loss: 0.00240 | kld loss: 0.00000 | teacher ratio: 0.39000 | KL ratio: 1.00000
+[epoch: 184] loss: 0.00240 | mse loss: 0.00240 | kld loss: 0.00000 | teacher ratio: 0.38667 | KL ratio: 1.00000
+[epoch: 185] loss: 0.00239 | mse loss: 0.00239 | kld loss: 0.00000 | teacher ratio: 0.38333 | KL ratio: 1.00000
+====================== validate psnr = 25.63891 ========================
+[epoch: 186] loss: 0.00258 | mse loss: 0.00258 | kld loss: 0.00000 | teacher ratio: 0.38000 | KL ratio: 1.00000
+[epoch: 187] loss: 0.00245 | mse loss: 0.00245 | kld loss: 0.00000 | teacher ratio: 0.37667 | KL ratio: 1.00000
+[epoch: 188] loss: 0.00239 | mse loss: 0.00239 | kld loss: 0.00000 | teacher ratio: 0.37333 | KL ratio: 1.00000
+[epoch: 189] loss: 0.00264 | mse loss: 0.00264 | kld loss: 0.00000 | teacher ratio: 0.37000 | KL ratio: 1.00000
+[epoch: 190] loss: 0.00274 | mse loss: 0.00274 | kld loss: 0.00000 | teacher ratio: 0.36667 | KL ratio: 1.00000
+====================== validate psnr = 25.58017 ========================
+[epoch: 191] loss: 0.00242 | mse loss: 0.00242 | kld loss: 0.00000 | teacher ratio: 0.36333 | KL ratio: 1.00000
+[epoch: 192] loss: 0.00240 | mse loss: 0.00240 | kld loss: 0.00000 | teacher ratio: 0.36000 | KL ratio: 1.00000
+[epoch: 193] loss: 0.00237 | mse loss: 0.00237 | kld loss: 0.00000 | teacher ratio: 0.35667 | KL ratio: 1.00000
+[epoch: 194] loss: 0.00242 | mse loss: 0.00242 | kld loss: 0.00000 | teacher ratio: 0.35333 | KL ratio: 1.00000
+[epoch: 195] loss: 0.00236 | mse loss: 0.00236 | kld loss: 0.00000 | teacher ratio: 0.35000 | KL ratio: 1.00000
+====================== validate psnr = 25.67918 ========================
+[epoch: 196] loss: 0.00235 | mse loss: 0.00235 | kld loss: 0.00000 | teacher ratio: 0.34667 | KL ratio: 1.00000
+[epoch: 197] loss: 0.00234 | mse loss: 0.00234 | kld loss: 0.00000 | teacher ratio: 0.34333 | KL ratio: 1.00000
+[epoch: 198] loss: 0.00235 | mse loss: 0.00235 | kld loss: 0.00000 | teacher ratio: 0.34000 | KL ratio: 1.00000
+[epoch: 199] loss: 0.00240 | mse loss: 0.00240 | kld loss: 0.00000 | teacher ratio: 0.33667 | KL ratio: 1.00000
+[epoch: 200] loss: 0.00238 | mse loss: 0.00238 | kld loss: 0.00000 | teacher ratio: 0.33333 | KL ratio: 1.00000
+====================== validate psnr = 25.49219 ========================
+[epoch: 201] loss: 0.00235 | mse loss: 0.00235 | kld loss: 0.00000 | teacher ratio: 0.33000 | KL ratio: 1.00000
+[epoch: 202] loss: 0.00236 | mse loss: 0.00236 | kld loss: 0.00000 | teacher ratio: 0.32667 | KL ratio: 1.00000
+[epoch: 203] loss: 0.00235 | mse loss: 0.00235 | kld loss: 0.00000 | teacher ratio: 0.32333 | KL ratio: 1.00000
+[epoch: 204] loss: 0.00249 | mse loss: 0.00249 | kld loss: 0.00000 | teacher ratio: 0.32000 | KL ratio: 1.00000
+[epoch: 205] loss: 0.00241 | mse loss: 0.00241 | kld loss: 0.00000 | teacher ratio: 0.31667 | KL ratio: 1.00000
+====================== validate psnr = 25.52430 ========================
+[epoch: 206] loss: 0.00267 | mse loss: 0.00267 | kld loss: 0.00000 | teacher ratio: 0.31333 | KL ratio: 1.00000
+[epoch: 207] loss: 0.00232 | mse loss: 0.00232 | kld loss: 0.00000 | teacher ratio: 0.31000 | KL ratio: 1.00000
+[epoch: 208] loss: 0.00236 | mse loss: 0.00236 | kld loss: 0.00000 | teacher ratio: 0.30667 | KL ratio: 1.00000
+[epoch: 209] loss: 0.00235 | mse loss: 0.00235 | kld loss: 0.00000 | teacher ratio: 0.30333 | KL ratio: 1.00000
+[epoch: 210] loss: 0.00235 | mse loss: 0.00235 | kld loss: 0.00000 | teacher ratio: 0.30000 | KL ratio: 1.00000
+====================== validate psnr = 25.49708 ========================
+[epoch: 211] loss: 0.00236 | mse loss: 0.00236 | kld loss: 0.00000 | teacher ratio: 0.29667 | KL ratio: 1.00000
+[epoch: 212] loss: 0.00233 | mse loss: 0.00233 | kld loss: 0.00000 | teacher ratio: 0.29333 | KL ratio: 1.00000
+[epoch: 213] loss: 0.00230 | mse loss: 0.00230 | kld loss: 0.00000 | teacher ratio: 0.29000 | KL ratio: 1.00000
+[epoch: 214] loss: 0.00231 | mse loss: 0.00231 | kld loss: 0.00000 | teacher ratio: 0.28667 | KL ratio: 1.00000
+[epoch: 215] loss: 0.00262 | mse loss: 0.00261 | kld loss: 0.00000 | teacher ratio: 0.28333 | KL ratio: 1.00000
+====================== validate psnr = 25.49633 ========================
+[epoch: 216] loss: 0.00240 | mse loss: 0.00240 | kld loss: 0.00000 | teacher ratio: 0.28000 | KL ratio: 1.00000
+[epoch: 217] loss: 0.00233 | mse loss: 0.00233 | kld loss: 0.00000 | teacher ratio: 0.27667 | KL ratio: 1.00000
+[epoch: 218] loss: 0.00240 | mse loss: 0.00240 | kld loss: 0.00000 | teacher ratio: 0.27333 | KL ratio: 1.00000
+[epoch: 219] loss: 0.00231 | mse loss: 0.00231 | kld loss: 0.00000 | teacher ratio: 0.27000 | KL ratio: 1.00000
+[epoch: 220] loss: 0.00233 | mse loss: 0.00233 | kld loss: 0.00000 | teacher ratio: 0.26667 | KL ratio: 1.00000
+====================== validate psnr = 25.53488 ========================
+[epoch: 221] loss: 0.00229 | mse loss: 0.00229 | kld loss: 0.00000 | teacher ratio: 0.26333 | KL ratio: 1.00000
+[epoch: 222] loss: 0.00225 | mse loss: 0.00225 | kld loss: 0.00000 | teacher ratio: 0.26000 | KL ratio: 1.00000
+[epoch: 223] loss: 0.00226 | mse loss: 0.00226 | kld loss: 0.00000 | teacher ratio: 0.25667 | KL ratio: 1.00000
+[epoch: 224] loss: 0.00236 | mse loss: 0.00236 | kld loss: 0.00000 | teacher ratio: 0.25333 | KL ratio: 1.00000
+[epoch: 225] loss: 0.00230 | mse loss: 0.00230 | kld loss: 0.00000 | teacher ratio: 0.25000 | KL ratio: 1.00000
+====================== validate psnr = 25.43247 ========================
+[epoch: 226] loss: 0.00227 | mse loss: 0.00227 | kld loss: 0.00000 | teacher ratio: 0.24667 | KL ratio: 1.00000
+[epoch: 227] loss: 0.00226 | mse loss: 0.00226 | kld loss: 0.00000 | teacher ratio: 0.24333 | KL ratio: 1.00000
+[epoch: 228] loss: 0.00226 | mse loss: 0.00226 | kld loss: 0.00000 | teacher ratio: 0.24000 | KL ratio: 1.00000
+[epoch: 229] loss: 0.00228 | mse loss: 0.00228 | kld loss: 0.00000 | teacher ratio: 0.23667 | KL ratio: 1.00000
+[epoch: 230] loss: 0.00225 | mse loss: 0.00225 | kld loss: 0.00000 | teacher ratio: 0.23333 | KL ratio: 1.00000
+====================== validate psnr = 25.57864 ========================
+[epoch: 231] loss: 0.00224 | mse loss: 0.00224 | kld loss: 0.00000 | teacher ratio: 0.23000 | KL ratio: 1.00000
+[epoch: 232] loss: 0.00226 | mse loss: 0.00226 | kld loss: 0.00000 | teacher ratio: 0.22667 | KL ratio: 1.00000
+[epoch: 233] loss: 0.00240 | mse loss: 0.00240 | kld loss: 0.00000 | teacher ratio: 0.22333 | KL ratio: 1.00000
+[epoch: 234] loss: 0.00230 | mse loss: 0.00230 | kld loss: 0.00000 | teacher ratio: 0.22000 | KL ratio: 1.00000
+[epoch: 235] loss: 0.00224 | mse loss: 0.00224 | kld loss: 0.00000 | teacher ratio: 0.21667 | KL ratio: 1.00000
+====================== validate psnr = 25.61799 ========================
+[epoch: 236] loss: 0.00221 | mse loss: 0.00221 | kld loss: 0.00000 | teacher ratio: 0.21333 | KL ratio: 1.00000
+[epoch: 237] loss: 0.00220 | mse loss: 0.00220 | kld loss: 0.00000 | teacher ratio: 0.21000 | KL ratio: 1.00000
+[epoch: 238] loss: 0.00222 | mse loss: 0.00221 | kld loss: 0.00000 | teacher ratio: 0.20667 | KL ratio: 1.00000
+[epoch: 239] loss: 0.00225 | mse loss: 0.00225 | kld loss: 0.00000 | teacher ratio: 0.20333 | KL ratio: 1.00000
+[epoch: 240] loss: 0.00220 | mse loss: 0.00220 | kld loss: 0.00000 | teacher ratio: 0.20000 | KL ratio: 1.00000
+====================== validate psnr = 25.71821 ========================
+[epoch: 241] loss: 0.00221 | mse loss: 0.00221 | kld loss: 0.00000 | teacher ratio: 0.19667 | KL ratio: 1.00000
+[epoch: 242] loss: 0.00223 | mse loss: 0.00223 | kld loss: 0.00000 | teacher ratio: 0.19333 | KL ratio: 1.00000
+[epoch: 243] loss: 0.00221 | mse loss: 0.00221 | kld loss: 0.00000 | teacher ratio: 0.19000 | KL ratio: 1.00000
+[epoch: 244] loss: 0.00218 | mse loss: 0.00218 | kld loss: 0.00000 | teacher ratio: 0.18667 | KL ratio: 1.00000
+[epoch: 245] loss: 0.00222 | mse loss: 0.00222 | kld loss: 0.00000 | teacher ratio: 0.18333 | KL ratio: 1.00000
+====================== validate psnr = 25.77310 ========================
+[epoch: 246] loss: 0.00226 | mse loss: 0.00226 | kld loss: 0.00000 | teacher ratio: 0.18000 | KL ratio: 1.00000
+[epoch: 247] loss: 0.00218 | mse loss: 0.00218 | kld loss: 0.00000 | teacher ratio: 0.17667 | KL ratio: 1.00000
+[epoch: 248] loss: 0.00228 | mse loss: 0.00228 | kld loss: 0.00000 | teacher ratio: 0.17333 | KL ratio: 1.00000
+[epoch: 249] loss: 0.00221 | mse loss: 0.00221 | kld loss: 0.00000 | teacher ratio: 0.17000 | KL ratio: 1.00000
+[epoch: 250] loss: 0.00218 | mse loss: 0.00218 | kld loss: 0.00000 | teacher ratio: 0.16667 | KL ratio: 1.00000
+====================== validate psnr = 25.78482 ========================
+[epoch: 251] loss: 0.00216 | mse loss: 0.00216 | kld loss: 0.00000 | teacher ratio: 0.16333 | KL ratio: 1.00000
+[epoch: 252] loss: 0.00216 | mse loss: 0.00216 | kld loss: 0.00000 | teacher ratio: 0.16000 | KL ratio: 1.00000
+[epoch: 253] loss: 0.00217 | mse loss: 0.00217 | kld loss: 0.00000 | teacher ratio: 0.15667 | KL ratio: 1.00000
+[epoch: 254] loss: 0.00222 | mse loss: 0.00222 | kld loss: 0.00000 | teacher ratio: 0.15333 | KL ratio: 1.00000
+[epoch: 255] loss: 0.00218 | mse loss: 0.00218 | kld loss: 0.00000 | teacher ratio: 0.15000 | KL ratio: 1.00000
+====================== validate psnr = 25.72379 ========================
+[epoch: 256] loss: 0.00216 | mse loss: 0.00216 | kld loss: 0.00000 | teacher ratio: 0.14667 | KL ratio: 1.00000
+[epoch: 257] loss: 0.00226 | mse loss: 0.00225 | kld loss: 0.00000 | teacher ratio: 0.14333 | KL ratio: 1.00000
+[epoch: 258] loss: 0.00221 | mse loss: 0.00221 | kld loss: 0.00000 | teacher ratio: 0.14000 | KL ratio: 1.00000
+[epoch: 259] loss: 0.00214 | mse loss: 0.00214 | kld loss: 0.00000 | teacher ratio: 0.13667 | KL ratio: 1.00000
+[epoch: 260] loss: 0.00216 | mse loss: 0.00216 | kld loss: 0.00000 | teacher ratio: 0.13333 | KL ratio: 1.00000
+====================== validate psnr = 25.85263 ========================
+[epoch: 261] loss: 0.00218 | mse loss: 0.00218 | kld loss: 0.00000 | teacher ratio: 0.13000 | KL ratio: 1.00000
+[epoch: 262] loss: 0.00215 | mse loss: 0.00215 | kld loss: 0.00000 | teacher ratio: 0.12667 | KL ratio: 1.00000
+[epoch: 263] loss: 0.00220 | mse loss: 0.00220 | kld loss: 0.00000 | teacher ratio: 0.12333 | KL ratio: 1.00000
+[epoch: 264] loss: 0.00216 | mse loss: 0.00216 | kld loss: 0.00000 | teacher ratio: 0.12000 | KL ratio: 1.00000
+[epoch: 265] loss: 0.00214 | mse loss: 0.00214 | kld loss: 0.00000 | teacher ratio: 0.11667 | KL ratio: 1.00000
+====================== validate psnr = 25.99825 ========================
+[epoch: 266] loss: 0.00215 | mse loss: 0.00215 | kld loss: 0.00000 | teacher ratio: 0.11333 | KL ratio: 1.00000
+[epoch: 267] loss: 0.00212 | mse loss: 0.00212 | kld loss: 0.00000 | teacher ratio: 0.11000 | KL ratio: 1.00000
+[epoch: 268] loss: 0.00216 | mse loss: 0.00216 | kld loss: 0.00000 | teacher ratio: 0.10667 | KL ratio: 1.00000
+[epoch: 269] loss: 0.00226 | mse loss: 0.00225 | kld loss: 0.00000 | teacher ratio: 0.10333 | KL ratio: 1.00000
+[epoch: 270] loss: 0.00211 | mse loss: 0.00211 | kld loss: 0.00000 | teacher ratio: 0.10000 | KL ratio: 1.00000
+====================== validate psnr = 25.60421 ========================
+[epoch: 271] loss: 0.00211 | mse loss: 0.00211 | kld loss: 0.00000 | teacher ratio: 0.09667 | KL ratio: 1.00000
+[epoch: 272] loss: 0.00214 | mse loss: 0.00214 | kld loss: 0.00000 | teacher ratio: 0.09333 | KL ratio: 1.00000
+[epoch: 273] loss: 0.00208 | mse loss: 0.00208 | kld loss: 0.00000 | teacher ratio: 0.09000 | KL ratio: 1.00000
+[epoch: 274] loss: 0.00217 | mse loss: 0.00217 | kld loss: 0.00000 | teacher ratio: 0.08667 | KL ratio: 1.00000
+[epoch: 275] loss: 0.00227 | mse loss: 0.00227 | kld loss: 0.00000 | teacher ratio: 0.08333 | KL ratio: 1.00000
+====================== validate psnr = 25.69467 ========================
+[epoch: 276] loss: 0.00231 | mse loss: 0.00230 | kld loss: 0.00000 | teacher ratio: 0.08000 | KL ratio: 1.00000
+[epoch: 277] loss: 0.00217 | mse loss: 0.00217 | kld loss: 0.00000 | teacher ratio: 0.07667 | KL ratio: 1.00000
+[epoch: 278] loss: 0.00216 | mse loss: 0.00215 | kld loss: 0.00000 | teacher ratio: 0.07333 | KL ratio: 1.00000
+[epoch: 279] loss: 0.00212 | mse loss: 0.00212 | kld loss: 0.00000 | teacher ratio: 0.07000 | KL ratio: 1.00000
+[epoch: 280] loss: 0.00211 | mse loss: 0.00211 | kld loss: 0.00000 | teacher ratio: 0.06667 | KL ratio: 1.00000
+====================== validate psnr = 25.77006 ========================
+[epoch: 281] loss: 0.00208 | mse loss: 0.00208 | kld loss: 0.00000 | teacher ratio: 0.06333 | KL ratio: 1.00000
+[epoch: 282] loss: 0.00210 | mse loss: 0.00210 | kld loss: 0.00000 | teacher ratio: 0.06000 | KL ratio: 1.00000
+[epoch: 283] loss: 0.00210 | mse loss: 0.00210 | kld loss: 0.00000 | teacher ratio: 0.05667 | KL ratio: 1.00000
+[epoch: 284] loss: 0.00208 | mse loss: 0.00208 | kld loss: 0.00000 | teacher ratio: 0.05333 | KL ratio: 1.00000
+[epoch: 285] loss: 0.00219 | mse loss: 0.00219 | kld loss: 0.00000 | teacher ratio: 0.05000 | KL ratio: 1.00000
+====================== validate psnr = 25.80839 ========================
+[epoch: 286] loss: 0.00209 | mse loss: 0.00209 | kld loss: 0.00000 | teacher ratio: 0.04667 | KL ratio: 1.00000
+[epoch: 287] loss: 0.00212 | mse loss: 0.00211 | kld loss: 0.00000 | teacher ratio: 0.04333 | KL ratio: 1.00000
+[epoch: 288] loss: 0.00212 | mse loss: 0.00212 | kld loss: 0.00000 | teacher ratio: 0.04000 | KL ratio: 1.00000
+[epoch: 289] loss: 0.00206 | mse loss: 0.00206 | kld loss: 0.00000 | teacher ratio: 0.03667 | KL ratio: 1.00000
+[epoch: 290] loss: 0.00210 | mse loss: 0.00210 | kld loss: 0.00000 | teacher ratio: 0.03333 | KL ratio: 1.00000
+====================== validate psnr = 25.78827 ========================
+[epoch: 291] loss: 0.00209 | mse loss: 0.00209 | kld loss: 0.00000 | teacher ratio: 0.03000 | KL ratio: 1.00000
+[epoch: 292] loss: 0.00208 | mse loss: 0.00208 | kld loss: 0.00000 | teacher ratio: 0.02667 | KL ratio: 1.00000
+[epoch: 293] loss: 0.00221 | mse loss: 0.00221 | kld loss: 0.00000 | teacher ratio: 0.02333 | KL ratio: 1.00000
+[epoch: 294] loss: 0.00206 | mse loss: 0.00206 | kld loss: 0.00000 | teacher ratio: 0.02000 | KL ratio: 1.00000
+[epoch: 295] loss: 0.00206 | mse loss: 0.00206 | kld loss: 0.00000 | teacher ratio: 0.01667 | KL ratio: 1.00000
+====================== validate psnr = 25.84363 ========================
+[epoch: 296] loss: 0.00204 | mse loss: 0.00204 | kld loss: 0.00000 | teacher ratio: 0.01333 | KL ratio: 1.00000
+[epoch: 297] loss: 0.00204 | mse loss: 0.00204 | kld loss: 0.00000 | teacher ratio: 0.01000 | KL ratio: 1.00000
+[epoch: 298] loss: 0.00207 | mse loss: 0.00207 | kld loss: 0.00000 | teacher ratio: 0.00667 | KL ratio: 1.00000
+[epoch: 299] loss: 0.00213 | mse loss: 0.00213 | kld loss: 0.00000 | teacher ratio: 0.00333 | KL ratio: 1.00000
